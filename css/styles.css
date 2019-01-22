@@ -1,9 +1,48 @@
-.red {
-  background-color: red;
-  height: 200px;
+.yellow {
+  background-color: yellow;
+  height: 800px;
 }
 .blue {
   background-color: blue;
   height: 200px;
+  border: 3px black solid;
 }
-/*learn emmet*/
+.green {
+  background-color: green;
+  height: 75px;
+  border: 3px black solid;
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+  border: 3px black solid;
+}
+
+.aqua {
+  background-color: aqua;
+  height: 200px;
+  border: 3px black solid;
+}
+.orange {
+  background-color: orange;
+  height: 150px;
+  border: 3px black solid;
+}
+.black {
+  background-color: black;
+  color: white;
+  height: 75px;
+  border: 3px black solid;
+}
+
+@media only screen and (min-width: 768px) {
+  .yellow {
+    background-color: purple;
+  }
+}
+@media only screen and (min-width: 875px) {
+  .yellow {
+    background-color: red;
+  }
+}
